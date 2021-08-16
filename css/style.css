@@ -29,7 +29,7 @@ main {
     z-index: 3;
 }
 
-.block-penfriend {
+.penfriend {
     background: linear-gradient(0.25turn, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
     border-radius: 25px 25px 7px 7px;
     height: 90px;
@@ -38,12 +38,12 @@ main {
     z-index: 2;
 }
 
-.personal-data-penfriend {
+.penfriend__personal-data {
     display: inline-block;
     margin: 35px 0 0 20px;
 }
 
-.icon-penfriend {
+.penfriend__icon {
     border-radius: 50px;
     border: 2px solid white;
     float: left;
@@ -52,7 +52,7 @@ main {
     width: 30px;
 }
 
-.mark-penfriend {
+.penfriend__mark {
     color: white;
     font-size: 24px;
     position: absolute;
@@ -60,26 +60,26 @@ main {
     left: 5px;
 }
 
-.name-penfriend {
+.penfriend__name {
     display: inline-block;
     color: white;
     padding-top: 5px;
     font-size: 125%;
 }
 
-.status-penfriend {
+.penfriend__status {
     color: hsl(276, 100%, 81%);
     font-size: 90%;
 }
 
-.button-menu {
+.penfriend__button-menu {
     filter: invert(1);
     margin-bottom: 5px;
     padding-left: 70px;
     width: 15px;
 }
 
-.block-get-massage {
+.massage_get {
     background-color: hsl(300, 55%, 87%);
     color: hsl(303, 55%, 52%);
     padding: 5px 0 0 10px;
@@ -100,7 +100,7 @@ main {
     width: 50px;
 }
 
-.block-sent-massage {
+.massage_sent {
     background-color: hsl(0, 0%, 100%);
     color: rgb(121, 121, 121);
     float: right;
@@ -108,18 +108,18 @@ main {
     padding: 5px 5px 0px 10px;
 }
 
-.shalow-massage {
+.massage_shalow {
     height: 15px;
     padding: 7px 5px 5px 10px;
 }
 
-.big-massage {
+.massage_big {
     margin-top: 155px;
     padding: 5px 5px 0 10px;
     height: 40px;
 }
 
-.block-trade {
+.trade {
     background: linear-gradient(0.25turn, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
     border-radius: 15px;
     color: white;
@@ -129,7 +129,7 @@ main {
     width: 180px;
 }
 
-.trade-round {
+.trade__round {
     display: inline-block;
     border-radius: 50px;
     border: 1.5px solid white;
@@ -138,12 +138,12 @@ main {
     width: 10px;
 }
 
-.time-walk {
+.trade__time-walk {
     padding-left: 10px;
     vertical-align: 3px;
 }
 
-.price {
+.trade__price {
     float: right;
     font-size: 150%;
     font-weight: 800;
