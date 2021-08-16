@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(238, 243, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 0;
+}
+
+.main-block{
+    background-color: hsl(270, 64%, 95%);
+    box-shadow: 5px 0px 5px 0px rgb(221, 221, 221);
+    border: 10px solid white;
+    border-radius: 35px;
+    float: left;
+    position: relative;
+    margin: 5% 0 0 15%;
+    height: 530px;
+    width: 250px; 
+}
+
+.white-line-top-screen{
+    background-color: white;
+    border: 8px solid white;
+    border-radius: 0 0 20px 20px;
+    margin: 0 auto 0 auto;
+    height: 1px;
+    position: relative;
+    width: 120px;
+    z-index: 3;
+    
+}
+
+.block-penfriend{
+    background: linear-gradient(0.25turn,hsl(264, 100%, 61%) ,hsl(293, 100%, 63%));
+    border-radius: 25px 25px 7px 7px;
+    height: 90px;
+    margin-top: -17px;
+    position: relative;
+    z-index: 2;
+}
+
+.personal-data-penfriend{
+    display: inline-block;
+    margin: 35px 0 0 20px;
+}
+
+.icon-penfriend{
+    border-radius: 50px;
+    border: 2px solid white;
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 30px;
+}
+
+.mark-penfriend{
+    color: white;
+    font-size: 24px; 
+    position: absolute;
+    top: 36px;
+    left:5px;
+}
+
+.name-penfriend{
+    display: inline-block;
+    color: white;
+    padding-top: 5px;
+    font-size: 125%;
+}
+
+.status-penfriend{
+    color: hsl(276, 100%, 81%) ; 
+    font-size: 90%;
+}
+
+.botton-menu{
+   filter: invert(1);
+   margin-bottom: 5px;
+   padding-left: 70px;
+   width: 15px;
+}
+
+.block-received-massage{
+    background-color: hsl(300, 55%, 87%);
+    color:hsl(303, 55%, 52%);
+    padding: 5px 0 0 10px;
+}
+
+.massage{
+    border-radius: 15px;
+    margin: 10px 0 0 10px;
+    max-width: 150px;
+    height: 30px;
+}
+
+.img-dog{
+    border: 2px solid white;
+    border-radius: 15px;
+    float:right;
+    margin: 10px 10px 0 -6px;
+    width: 50px;
+}
+
+.block-sent-massage{
+    background-color: hsl(0, 0%, 100%);
+    color:rgb(121, 121, 121);
+    float: right;
+    margin: 10px 10px 0 0;
+    padding: 5px 5px 0px 10px;
+}
+
+.shalow-massage{
+    height: 15px;
+    padding: 7px 5px 5px 10px;
+}
+
+.big-massage{
+    margin-top: 155px;
+    padding: 5px 5px 0 10px;
+    height: 40px;
+}
+
+.block-trade{
+    background: linear-gradient(0.25turn,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 15px;
+    color:white;
+    margin: 10px 0 0 10px;
+    height: 30px;
+    padding: 5px 0 0 10px;
+    width: 180px; 
+}
+
+.trade-round{
+    display: inline-block;
+    border-radius: 50px;
+    border: 1.5px solid white;
+    height: 10px;
+    margin-top: 5px; 
+    width: 10px;
+}
+
+.time-walk{
+    padding-left: 10px;
+    vertical-align: 3px;
+}
+
+.price{
+    float:right;
+    font-size: 150%;
+    font-weight: 800;
+    padding-right: 10px; 
+}
+
+.input-massage{
+    border: 1px solid #E8DBDE;
+    border-radius: 20px;
+    font-size: 100%;
+    line-height: 35px;
+    text-indent: 15px;
+    margin: 10px 0 0 10px;
+    width: 225px;
+}
+
+button {
+    background-color: #2c2a2b;
+    border: 1px solid #2c2a2b;
+    border-radius: 20px;
+    color: white;
+    float:right;
+    font-size: 200%;
+    position: relative;
+    left:-10px;
+    height: 27px;
+    margin-top: -33px;
+    margin-right: 5px;
+    width: 28px;
+}
+
+.input-massage:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.bacground-dark{
+    background: linear-gradient(0.5turn,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-bottom-right-radius: 150px;
+    height: 650px;
+    width: 20%;
+    z-index: 1;
+}
+
+.bacground-light{
+    border-top-left-radius: 150px;
+    background-color:hsl(267, 27%, 92%) ;
+    right: 0;
+    top: 100px;
+    height: 550px;
+    position: absolute;
+    width: 20vw;
+    z-index: 1;
+}
+
+.discriprion-page{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    font-size: 200%;
+    z-index: 1;
+}
+
+p{
+    color:#9b9b9b;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    color: hsl(271, 36%, 24%);
+}
+
+    
